@@ -93,10 +93,8 @@ h6 {
     background-image: url(img/Mask\ group\ \(6\).jpg);
     background-color: black;
     background-repeat: no-repeat;
-    text-align: center;
-    width: 1440px;
 
-    
+    text-align: center;
 }
 
 .benefits-cover {
@@ -196,8 +194,7 @@ h6 {
 .comments {
     background-image: url(img/comments/обложка.png);
     background-repeat: no-repeat;
-    width: 1440px;
-
+    background-size: cover;
     align-items: flex-start;
 
 }
@@ -227,10 +224,8 @@ h6 {
     column-gap: 20px;
     padding-top: 60px;
     text-align: center;
-
+    align-items: center;
+    justify-content: space-between;
 }
 
-.comment {
-padding-left: 255px;
-padding-bottom: 90px;
-}
+.comment {}
